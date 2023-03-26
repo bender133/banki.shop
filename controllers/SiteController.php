@@ -3,7 +3,7 @@
 namespace app\controllers;
 
 use app\models\Images;
-use app\models\UploadFilesForm;
+use app\form\UploadFilesForm;
 use Yii;
 use yii\data\ActiveDataProvider;
 use yii\data\Sort;

@@ -40,6 +40,7 @@ class ImagesController extends ActiveController {
     if (Yii::$app->request->get('total') === 'true') {
       return ['total' => $provider->getTotalCount()];
     }
+
     $data = $provider->getModels();
     return [
       'page' => $provider->getPagination()->getPage(),

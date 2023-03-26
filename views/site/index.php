@@ -21,7 +21,7 @@ $this->title = 'My Yii Application';
 </style>
 <?php
 /* @var $this yii\web\View */
-/* @var $model \app\models\UploadFilesForm */
+/* @var $model \app\form\UploadFilesForm*/
 /* @var $images \app\models\Images */
 /* @var $dataProvider  \yii\data\ActiveDataProvider */
 /* @var $sort  \yii\data\Sort */
